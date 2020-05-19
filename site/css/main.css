@@ -358,9 +358,12 @@ header {
 .servicesleft {
   background-image: url(../img/lefticons.png);
   width: 48px;
+  background-repeat: no-repeat;
   height: 260px;
   margin-left: 138px;
   margin-top: 58px;
+  float: left;
+  width: 40%;
 }
 .serviceslefttext {
   margin-left: 106px;
@@ -370,6 +373,17 @@ header {
   margin-left: 106px;
   width: 309px;
   margin-top: 20px;
+}
+.servicesright {
+  background-image: url(../img/righticons.png);
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 260px;
+  margin-left: 690px;
+  margin-top: 58px;
+  width: 50%;
+  float: right;
+  /* float: right; */
 }
 /*
  * Remove text-shadow in selection highlight:
