@@ -36,8 +36,8 @@ header {
 }
 .boven {
   /* background: rgba(0, 0, 0, 0.596); */
-  max-width: 995px;
   width: 100%;
+  max-width: 995px;
   height: 53px;
   margin: 0 auto;
 }
@@ -46,10 +46,10 @@ header {
   color: white;
   text-align: center;
   margin: 0 auto;
-  margin-right: 90px;
+  /* margin-right: 90px; */
   margin-top: 20px;
   margin-left: 10px;
-  font-size: 12px;
+  font-size: 12px auto;
 }
 .left2 p {
   float: left;
@@ -350,7 +350,7 @@ header {
 .servicestext {
   text-align: center;
   margin: 0 auto;
-  line-height: 25px;
+  line-height: 25px auto;
 }
 .ruimte {
   margin-top: 59px;
@@ -360,8 +360,8 @@ header {
   width: 48px;
   background-repeat: no-repeat;
   height: 260px;
-  margin-left: 138px;
-  margin-top: 58px;
+  margin-left: 90px ;
+  margin-top: 58px auto;
   float: left;
   width: 40%;
 }
@@ -377,13 +377,104 @@ header {
 .servicesright {
   background-image: url(../img/righticons.png);
   background-repeat: no-repeat;
-  width: 48px;
+  width: 48px auto;
   height: 260px;
-  margin-left: 690px;
-  margin-top: 58px;
-  width: 50%;
+  padding-right: 90px ;
+  margin-top: 68px auto;
+  /* width: 49%; */
   float: right;
   /* float: right; */
+}
+.pricecards {
+  background-image: url(../img/achtergrondprice.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  height: 752px;
+}
+.pricecards h2 {
+  font-size: 21px;
+  line-height: 24px;
+}
+.pricecards ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 78.125%;
+  margin: 0 auto;
+}
+.pricecards ul li.shadow, ul li.shadow1 {
+  background-color: #fff;
+  width: 33%;
+  display: inline-block;
+  border-radius: 9px;
+  overflow: hidden;
+  vertical-align: top;
+  margin-top: 200px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+}
+.pricecards ul li {
+  background-color: #fff;
+  width: 33%;
+  display: inline-block;
+  border-radius: 9px;
+  overflow: hidden;
+  vertical-align: top;
+  margin-top: 200px;
+}
+.shadow1 {
+box-shadow: inset 8px 0 10px -6px black;
+}
+.shadow {
+box-shadow: inset -8px 0 10px -6px black;
+}
+.pricecards ul li:nth-of-type(2){
+  margin-top: 175px;
+  margin-left: -5px;
+  margin-right: -5px;
+  position: relative;
+  background-color: transparent;
+}
+.pricecards ul li:nth-of-type(2) div {
+  clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 83%, 50% 100%, 50% 100%, 0 83%, 0 0);
+  height: 527px;
+  background-color: #fff;
+  box-shadow: 20px 0 10px 6px black;
+}
+.pricecards ul li img {
+  width: 100%;
+}
+.pricecards span {
+  display: block;
+}
+.pricecards.cities {
+  font-size: 22px;
+}
+.pricecards.price {
+  font-size: 22px;
+  font-weight: bold;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 31px;
+  background-color: #f3db3a;
+  border-radius: 3px;
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 18px;
+  margin-top: 12px;
+}
+.btn1 {
+  display: inline-block;
+  padding: 12px 31px;
+  background-color: #f3db3a;
+  border-radius: 3px;
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 18px;
+  margin-top: 65px;
 }
 /*
  * Remove text-shadow in selection highlight:
