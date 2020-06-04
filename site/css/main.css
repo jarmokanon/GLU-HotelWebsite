@@ -476,6 +476,103 @@ box-shadow: inset -8px 0 10px -6px black;
   margin-bottom: 18px;
   margin-top: 65px;
 }
+.threecards {
+  background-image: url(../img/pricecardbg.png);
+  max-width: 1280px;
+  width: 100%;
+  height: 609px;
+}
+.threecards li {
+  max-width: 307px;
+  width: 100%;
+  height: 329px;
+}
+.threecards h3 {
+  font-size: 14px;
+  text-align: center;
+  /* line-height: 24px; */
+}
+.threecards ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 78.125%;
+  margin: 0 auto;
+}
+.threecards ul li.shadow, ul li.shadow1 {
+  background-color: #fff;
+  /* width: 33%; */
+  display: inline-block;
+  border-radius: 9px;
+  overflow: hidden;
+  vertical-align: top;
+  /* margin-top: 200px; */
+}
+.threecards ul li {
+  background-color: #fff;
+  /* width: 33%; */
+  display: inline-block;
+  border-radius: 9px;
+  overflow: hidden;
+  vertical-align: top;
+  /* margin-top: 200px; */
+}
+.threecards ul li img {
+  max-width: 62px;
+  width: 100%;
+  height: 47px;
+  margin: 0 auto;
+  margin-top: 27px;
+  display: block;
+}
+.threecards span {
+  display: block;
+}
+.threecards.cities {
+  font-size: 22px;
+}
+.threecards.price {
+  font-size: 22px;
+  font-weight: bold;
+}
+.margin-top {
+  margin-top: 26px;
+}
+.geel {
+  max-width: 317px;
+  width: 100%;
+  height: 52px;
+  background-color: #f2da3a;
+  /* z-index: 1; */
+}
+.card {
+  margin-right: 32px;
+  /* z-index: 0; */
+}
+.geel h1 {
+  text-align: center;
+  font-size: 23px;
+  padding-top: 12px;
+}
+.vinkjes2 {
+  background-image: url(../img/vinkjes.png);
+  width: 157.5px;
+  height: 87px;
+  margin-left: 83px;
+  margin-top: 26px;
+}
+.cardtext {
+  width: 90px;
+  height: 50px;
+}
+.cardsheader h2 {
+  font-size: 21px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 77px;
+  padding-bottom: 56px;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
