@@ -3,10 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>HotelWebsite</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hotel website project">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Jarmo Kanon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b759a83093.js" crossorigin="anonymous"></script>
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
@@ -32,19 +36,19 @@
       <header>
         <section class="boven">
           <section class="left">
-            <p><img src="img/telefoon.png"> +123 4567 8900</p>
-            <p><img src="img/mail.png"> free@psdfreebies.com</p>
+            <p><i class="fas fa-phone" id="yellow"></i> +123 4567 8900</p>
+            <p><i class="fas fa-envelope" id="yellow"></i>free@psdfreebies.com</p>
           </section>
           <section class="right">
-            <p class="nav1"><img src="img/socials.png"></p>
-            <p class="nav"><img src="img/login.png">Login</p>
-            <p class="none"><img src="img/signup.png">Sign Up</p>
+            <p class="nav1"><i class="fab fa-facebook-f" id="yellow"></i>   <i class="fab fa-google-plus-g" id="yellow"></i>  <i class="fab fa-vk" id="yellow"></i>  <i class="fab fa-youtube" id="yellow"></i></p>
+            <p class="nav"><i class="fas fa-user" id="yellow"></i>Login</p>
+            <p class="none"><i class="fas fa-key" id="yellow"></i>Sign Up</p>
           </section>
         </section>
         <section class="midden"></section>
         <section class="beneden">
           <section class="left2">
-            <p><img src="img/logo.png"></p>
+            <p><img src="img/logo.png" alt="logo"></p>
           </section>
           <section class="right">
             <p>HOME</p>
@@ -94,13 +98,13 @@
       <section class="invoer">
         <input type="text" placeholder="Location" class="input1">
 
-        <input type="text" placeholder="DD-MM-YYYY" class="input2">
+        <input type="date" placeholder="DD-MM-YYYY" class="input2">
 
-        <input type="text" placeholder="DD-MM-YYYY" class="input2">
+        <input type="date" placeholder="DD-MM-YYYY" class="input2">
 
-        <input type="text" placeholder="01" class="input3">
+        <input type="number" placeholder="01" class="input3">
 
-        <input type="text" placeholder="00" class="input3">
+        <input type="number" placeholder="00" class="input3">
 
         <button class="searchbutton">
           <p>CLICK HERE</p>
@@ -116,7 +120,7 @@
         <h1>We are Explore</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nulla tempora accusantium, sint ratione alias
           dolore sapiente perferendis</p>
-        <img src="img/vink.png" class="vink">
+        <img src="img/vink.png" alt="vinkjes" class="vink">
         <section class="tekstvinkje">
           <p class="tekstvink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nulla </p>
           <p class="tekstvink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nulla </p>
@@ -164,32 +168,47 @@
       </section>
       <ul>
         <li class="card">
-          <img src="img/car.png">
+          <img src="img/car.png" alt="car">
           <span class="margin-top"><h3>Low Budget Trip</h3></span>
           <span class="geel"><h1>$500</h1></span>
           <span class="vinkjes2"></span>
         </li>
         <li class="card">
           <div>
-          <img src="img/train.png">
+          <img src="img/train.png" alt="train">
           <span class="margin-top"><h3>Mid Budget Trip</h3></span>
           <span class="geel"><h1>$800</h1></span>
           <span class="vinkjes2"></span>
           </div>
         </li>
         <li class="">
-          <img src="img/vliegtuig.png">
+          <img src="img/vliegtuig.png" alt="airplaine">
           <span class="margin-top"><h3>High Budget Trip</h3></span>
           <span class="geel"><h1>$1000</h1></span>
           <span class="vinkjes2"></span>
         </li>
       </ul>
     </section>
+    <section class="surf">
+      <section class="surf-left"><img src="img/surfer.png" alt="surfer"></section>
+      <section class="surf-right">
+        <h2>Trusted Since 2001<br>We are Travel Agent</h2>
+          <section class="surf-bar">
+            <ul>
+              <h2><li class="surf-li"><i class="fas fa-plane"></i> Flight</li></h2>
+              <h2><li class="surf-li2"><i class="fas fa-car"></i> Cab</li></h2>
+              <h2><li class="surf-li3"><i class="fas fa-university"></i> Hotel</li></h2>
+            </ul>
+          </section>
+          <p class="surf-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <button>CLICK HERE</button>
+        </section>
+    </section>
     <section class="pricecards">
         <h2>Trusted Since 2001<br>We are Travel Agent</h2>
         <ul>
           <li class="shadow">
-            <img src="img/links.png">
+            <img src="img/links.png" alt="cardbanner">
             <span>7 Day + 6 Night</span>
             <span class="cities">New York + Paris</span>
             <span>lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
@@ -198,7 +217,7 @@
           </li>
           <li>
             <div>
-            <img src="img/midden.png">
+            <img src="img/midden.png" alt="cardbanner">
             <span>7 Day + 6 Night</span>
             <span class="cities">New York + Paris</span>
             <span>lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
@@ -207,7 +226,7 @@
             </div>
           </li>
           <li class="shadow1">
-            <img src="img/rechts.png">
+            <img src="img/rechts.png" alt="cardbanner">
             <span>7 Day + 6 Night</span>
             <span class="cities">New York + Paris</span>
             <span>lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
@@ -215,6 +234,104 @@
             <a href="" class="btn" title="Book Now">Book Now</a>
           </li>
         </ul>
+    </section>
+    <!----------------------hier gebleven---------------->
+    <section class="kaarten">
+      <ul>
+        <li class="kaart">
+          <img src="img/tram.png" alt="cardbanner">
+          <button>CLICK HERE</button>
+          <h3>Lorem Ipsum Dolor</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+        <li class="kaart">
+          <img src="img/busje.png" alt="cardbanner">
+          <button>CLICK HERE</button>
+          <h3>Lorem Ipsum Dolor</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+        <li class="kaart">
+          <img src="img/kind.png" alt="cardbanner">
+          <button>CLICK HERE</button>
+          <h3>Lorem Ipsum Dolor</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="new-york">
+      <img src="img/zwembad.png" alt="zwembad">
+      <section class="tekst-ballon">
+        <section class="ny-img"></section>
+        <p class="ballon-p">7 Day + 6 Night</p>
+        <ul>
+        <li><i class="fas fa-plane"></i></li>
+        <li><i class="fas fa-university"></i></li>
+        <li><i class="fas fa-car"></i></li>
+        <br><br><br>
+        <li><p class="pp">Flight</p></li>
+        <li><p class="pp">Hotel</p></li>
+        <li><p class="pp">Transport</p></li>
+      </ul>
+      <br>
+      <p class="ballon-tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <br>
+      <h1>$1000</h1> <button>CLICK HERE</button>
+    </section>
+    </section>
+    <section class="customer-review">
+      <h2>Customer Reviews<br>We are Travel Agent</h2>
+      <p>”Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.”</p>
+      <img src="img/stars.png">
+      <br>
+      <section class="pf">
+        <img src="img/pf.png">
+      </section>
+      <section class="pf-txt">
+        <h2>John Smith</h2>
+        <!-- <br> -->
+        <p>Solo Traveller</p>
+      </section>
+    </section>
+    <section class="bergen">
+      <p>Start Your Journey<br>Contact Us</p>
+      <i class="fas fa-map-marker-alt" class="pin"></i>
+      <section class="contact-footer">
+        <img src="img/maillogo.png" alt="mail">
+        <h2>EMAIL</h2>
+        <h6>free@psdfreebies.com</h6><br>
+        <h6>free@psdfreebies.com</h6>
+      </section>
+      <section class="contact-footer">
+        <img src="img/phonelogo.png" alt="mail">
+        <h2>EMAIL</h2>
+        <h6>free@psdfreebies.com</h6><br>
+        <h6>free@psdfreebies.com</h6>
+      </section>
+      <section class="contact-footer">
+        <img src="img/location.png" alt="mail">
+        <h2>EMAIL</h2>
+        <h6>free@psdfreebies.com</h6><br>
+        <h6>free@psdfreebies.com</h6>
+      </section>
+    </section>
+    <section class="socials-ball">
+      <ul>
+        <li><i class="fab fa-facebook-f"></i></li>
+        <li><i class="fab fa-google-plus-g"></i></li>
+        <li><i class="fab fa-vk"></i></li>
+        <li><i class="fab fa-youtube"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+        <li><i class="fab fa-digg"></i></li>
+        <li><i class="fab fa-xing"></i></li>
+      </ul>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="footer">
+      <p>Copyright 2019, All Right Reserved</p>
     </section>
   </div>
 

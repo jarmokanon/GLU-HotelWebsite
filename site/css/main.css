@@ -174,7 +174,14 @@ header {
   height: 266px;
   background-color: #f2da3a;
   margin: 0 auto;
-  /* background-image: url(../img/searchbalk.png); */
+  display: flexbox;
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+
+#yellow {
+  color: #f2da3a;
+  margin-left: 8px;
+  margin-right: 2px;
 }
 .searchtekst {
   /* max-width: 805px; */
@@ -427,9 +434,9 @@ header {
 .shadow1 {
 box-shadow: inset 8px 0 10px -6px black;
 }
-.shadow {
+/* .shadow {
 box-shadow: inset -8px 0 10px -6px black;
-}
+} */
 .pricecards ul li:nth-of-type(2){
   margin-top: 175px;
   margin-left: -5px;
@@ -571,6 +578,318 @@ box-shadow: inset -8px 0 10px -6px black;
   margin: 0 auto;
   padding-top: 77px;
   padding-bottom: 56px;
+}
+.surf {
+  width: 100%;
+  height: 586px;
+  background-color: white;
+}
+.surf-left {
+  margin-left: 10.9375%;
+  margin-top: 72px;
+  height: 74.40%;
+  width: 26.171875%;
+  float: left;
+}
+.surf-right {
+  height: 74.40%;
+  margin-top: 72px;
+  width: 43.984375%;
+  margin-left: 5%;
+  float: left;
+  position: relative;
+}
+.surf-bar {
+  background-image: url(../img/surfbar.png);
+  width: 100%;
+  height: 19.579908675799087%;
+  background-repeat: no-repeat;
+  margin-top: 44px;
+}
+.surf-li {
+  float: left;
+  margin-left: 27px;
+  list-style: none;
+  text-align: center;
+  margin-top: 25px;
+}
+.surf-li2 {
+  float: left;
+  margin-left: 87px;
+  list-style: none;
+  text-align: center;
+  margin-top: 25px;
+}
+.surf-li3 {
+  float: left;
+  margin-left: 117px;
+  list-style: none;
+  text-align: center;
+  margin-top: 25px;
+}
+.surf-p {
+  margin-top: 54px;
+}
+.surf-right button {
+  background-color: #f2da3a;
+  font-size: 12px;
+  margin-top: 25px;
+  max-width: 172px;
+  width: 100%;
+  height: 45px;
+  border-radius: 2px;
+  border: none;
+}
+.kaarten {
+  background-image: url(../img/goexplore.png);
+  width: 100%;
+  height: 668px;
+}
+.kaarten h2 {
+  font-size: 21px;
+  line-height: 24px;
+}
+.kaarten ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 78.125%;
+  margin: 0 auto;
+}
+
+.kaarten ul li {
+  background-color: #fff;
+  width: 308px;
+  height: 402px;
+  display: inline-block;
+  border-radius: 9px;
+  overflow: hidden;
+  vertical-align: top;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-right: 20px;
+}
+.kaart {
+  text-align: center;
+  margin-top: 30px;
+}
+.kaarten ul li img {
+  width: 100%;
+  position: static;
+}
+.kaarten span {
+  display: block;
+}
+.kaarten.cities {
+  font-size: 22px;
+}
+.kaarten.price {
+  font-size: 22px;
+  font-weight: bold;
+}
+.kaarten button {
+  background-color: #f2da3a;
+  font-size: 12px;
+  margin-top: -25px;
+  /* margin-left: 14px; */
+  max-width: 172px;
+  width: 100%;
+  height: 45px;
+  border-radius: 2px;
+  border: none;
+}
+.new-york {
+  width: 100%;
+  height: 686px;
+}
+.new-york img {
+  height: 536px;
+  width: 804px;
+  margin-left: 68px;
+  margin-top: 82px;
+  float: left;
+  position: absolute;
+  z-index: -1;
+}
+.tekst-ballon {
+  border: 8px solid white;
+  background-image: url(../img/newyork.png);
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 470px;
+  height: 348px;
+  float: right;
+  margin-right: 146px;
+  margin-top: 184px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+}
+.ballon-p{
+  margin-top: 53px;
+  font-size: 14px;
+  /* margin-left: 52px; */
+}
+.tekst-ballon li {
+  color: #00a4ff;
+  list-style: none;
+  float: left;
+  font-size: 39px;
+  margin-right: 69px;
+}
+.tekst-ballon ul {
+  /* margin-left: 52px; */
+  margin-top: 31px;
+}
+.pp {
+  margin-top: 1px;
+  font-size: 14px;
+  color: black;
+}
+.ballon-tekst {
+  margin-top: 33px;
+}
+.tekst-ballon h1 {
+  margin-top: -10px;
+  float: left;
+}
+hr {
+  /* color: white; */
+  background-color: transparent;
+}
+.ny-img {
+  background-image: url(../img/newyork.png);
+  background-repeat: no-repeat;
+  margin-left: 52px;
+}
+.tekst-ballon button {
+    background-color: #f2da3a;
+    font-size: 12px;
+    margin-top: -25px;
+    margin-left: 34px;
+    max-width: 172px;
+    width: 100%;
+    height: 45px;
+    border-radius: 2px;
+    border: none;
+}
+.customer-review {
+  width: 100%;
+  height: 472px;
+  background-image: url(../img/reviews.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+.customer-review h2 {
+  padding-top: 82px;
+}
+.customer-review p {
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 758px;
+}
+.customer-review img {
+  margin-top: 4px;
+  width: 181px;
+  height: 18px;
+}
+.pf {
+  width: 49%;
+  float: left;
+  /* margin-left: 550px; */
+}
+.pf img {
+  width: 55px;
+  height: 55px;
+  margin-left: -100px;
+  margin-top: 15px;
+  float: right;
+  /* float: left; */
+}
+.pf-txt {
+  width: 40%;
+  margin: 0 auto;
+  margin-left: 300px;
+  margin-top: -65px;
+  color: white;
+  /* margin-right: 400px; */
+}
+.pf-txt p {
+  width: 40%;
+  margin: 0 auto;
+  margin-left: 300px;
+  margin-top: -67px;
+  color: white;
+  /* margin-right: 400px; */
+}
+.bergen {
+  width: 100%;
+  height: 712px;
+  background-image: url(../img/fotobg.png);
+  background-repeat: no-repeat;
+  color: #f2da3a;
+}
+.bergen i {
+  margin: 0 auto;
+  display: block;
+  padding-top: 93px;
+  font-size: 142px;
+  text-align: center;
+}
+.bergen p {
+  padding-top: 117px;
+  color: white;
+  font-size: 21px;
+  text-align: center;
+}
+.contact-footer {
+  float: left;
+  margin: 0 auto;
+  width: 14%;
+  margin-left: 196px;
+  margin-top: 49px;
+}
+.contact-footer img {
+  float: left;
+  padding-right: 15px;
+}
+.contact-footer h6  {
+  color: black;
+  font: size 2px;
+  float: right;
+}
+.contact-footer h2 {
+  font-size: 14px;
+  color: black;
+}
+.socials-ball li {
+  padding-top: 11px;
+  list-style: none;
+  width: 54px;
+  height: 45px;
+  font-size: 25px;
+  text-align: center;
+  float: left;
+  border: 2px solid #f2da3a;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+.socials-ball ul {
+  margin: 0 auto;
+  display: block;
+  margin-top: -90px;
+  margin-left: 419px;
+}
+.footer {
+  height: 146px;
+  background-color: #f2da3a;
+  width: 100%;
+  text-align: center;
+}
+.footer p {
+  padding-top: 65px;
 }
 
 /*
