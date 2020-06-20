@@ -1,0 +1,29 @@
+    <section class="banner">
+      <header>
+        <section class="boven">
+          <section class="left">
+            <p><i class="fas fa-phone" id="yellow"></i> +123 4567 8900</p>
+            <p><i class="fas fa-envelope" id="yellow"></i>free@psdfreebies.com</p>
+          </section>
+          <section class="right">
+            <p class="nav1"><i class="fab fa-facebook-f" id="yellow"></i>   <i class="fab fa-google-plus-g" id="yellow"></i>  <i class="fab fa-vk" id="yellow"></i>  <i class="fab fa-youtube" id="yellow"></i></p>
+            <p class="nav"><i class="fas fa-user" id="yellow"></i>Login</p>
+            <p class="none"><i class="fas fa-key" id="yellow"></i>Sign Up</p>
+          </section>
+        </section>
+        <section class="midden"></section>
+        <section class="beneden">
+          <section class="left2">
+            <p><img src="img/logo.png" alt="logo"></p>
+          </section>
+          <section class="right">
+            <p>HOME</p>
+            <p>DESTINATION</p>
+            <p>DISCOUNT</p>
+            <p>ABOUT</p>
+            <p>BLOG</p>
+            <p>CONTACT</p>
+            <hr class="streepje">
+          </section>
+        </section>
+      </header>

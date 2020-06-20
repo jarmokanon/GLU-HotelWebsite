@@ -41,7 +41,7 @@ header {
   height: 53px;
   margin: 0 auto;
 }
-.left p {
+.left {
   float: left;
   color: white;
   text-align: center;
@@ -64,22 +64,23 @@ header {
 .right {
   float: right;
 }
-.right p {
+.right li {
   float: left;
+  list-style: none;
   margin-right: 30px;
   margin-top: 20px;
   font-size: 15px;
   color: white;
 }
-.streepje {
-  height: 3px;
-  max-width: 59px;
-  width: 100%;
-  background-color: #f2da3a;
-  margin-top: 59px;
-  margin-left: -5px;
-  border: none;
+.active {
+  border-bottom: 3px solid #f2da3a;
+  padding-bottom: 18px;
 }
+.beneden li:hover {
+  border-bottom: 3px solid #f2da3a;
+  padding-bottom: 18px;
+}
+
 .nav {
   float: left;
   color: white;
@@ -890,6 +891,10 @@ hr {
 }
 .footer p {
   padding-top: 65px;
+}
+.boven li {
+  float: left;
+  list-style: none;
 }
 
 /*
